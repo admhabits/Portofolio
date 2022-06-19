@@ -200,6 +200,18 @@ footer.copyright > span {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 0 1rem;
+  }
+
+  footer {
+    padding: 0 1rem;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 0 1.6rem;
+    text-align: center;
+    line-height: 30px;
   }
 
   ul.dekstop {
