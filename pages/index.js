@@ -18,12 +18,7 @@ export default function Home() {
             <p className="text-content">
               {
                 `
-              Hallo. Let me introduce, I'm Alam Santiko Wibowo,
-              Full Stack React Developer Web & Mobile Apps from Cilacap, Central Java - Indonesia.
-              I really like to learn something new and interact with a lots of people.
-              If you have any idea project to work with together.
-              I will help you, to do something of your goal.
-              Based on requirement as Programmer, I'm good at Git System Versioning & RDBMS SQL and No-SQL. I can working with team collaboration.
+                Hallo. Let me introduce myself, I'm Alam Santiko Wibowo, Full Stack React Developer Web & Mobile Apps from Cilacap, Central Java - Indonesia. I really like to learn something new and interact with lots of people. Suppose you have any idea project to work with. I will help you to do something about your goal. Based on requirements as a Programmer, I'm good at Git System Versioning & RDBMS SQL and No-SQL. I can work with team collaboration.
               `
               }
             </p>
