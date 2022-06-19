@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from 'AppComponent/Header';
 import Footer from 'AppComponent/Footer';
+import styles from 'styles/Home.module.css'
 
 export default function Layout(props) {
     return (
@@ -11,7 +12,9 @@ export default function Layout(props) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header />
-            {props.children}
+            <main className={styles.main}>
+                {props.children}
+            </main>
             <Footer />
         </>
     )
