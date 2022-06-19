@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "AppComponent/*": ["components/*"],
+        "AppRedux/*": ["redux/*"],
+      }
+    }
+  }
