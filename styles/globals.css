@@ -60,6 +60,7 @@ header {
   position: sticky;
   top: 0;
   padding: 0 2rem;
+  z-index: 9999;
   -webkit-box-shadow: 0 10px 6px -6px #77777780;
   -moz-box-shadow: 0 10px 6px -6px #77777780;
   box-shadow: 0 10px 6px -6px #77777780;
