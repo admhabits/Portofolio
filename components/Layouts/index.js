@@ -5,7 +5,7 @@ import styles from 'styles/Home.module.css'
 
 export default function Layout(props) {
     return (
-        <>
+        <div className={styles.container}>
             <Head>
                 <title>{props.title}</title>
                 <meta name="description" content="Hire Programmer | Alam Santiko Wibowo" />
@@ -16,6 +16,6 @@ export default function Layout(props) {
                 {props.children}
             </main>
             <Footer />
-        </>
+        </div>
     )
 }
