@@ -22,6 +22,9 @@ export default function Home() {
               `
               }
             </p>
+            <div className="download-cv">
+              <a href="/CV/CV%20(14).pdf" className="btn btn-primary btn-download">Download CV</a>
+            </div>
           </div>
           <div className="side-content">
             <Image src={"/images/me.jpeg"} width={250} height={350} className="rounded" layout="fill" objectFit='contain' />
