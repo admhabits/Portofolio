@@ -151,14 +151,23 @@ ul.mobile {
    background-color: rgb(226, 223, 223);
    min-height: 350px;
    min-width: 250px;
+   position: relative;
    /* box-shadow: 0 0 50px #ccc; */
+   -webkit-box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
+   -moz-box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
+   box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
+  border-radius: 20px;
+   
 
 }
+
+.rounded {
+  border-radius: 20px;
+}
 .side-content:hover {
-  -webkit-box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
+  /* -webkit-box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
   -moz-box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
-  box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
-  margin-bottom: 1.5rem;
+  box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281); */
   animation: infinite 3s ease-in-out step-end;
 }
 
