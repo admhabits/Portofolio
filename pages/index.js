@@ -4,7 +4,7 @@ import Layout from 'AppComponent/Layouts'
 
 export default function Home() {
   return (
-    <Layout title="Pengalaman">
+    <Layout title="Alam Wibowo | Software Engineer">
       <div className="container">
         <Header/>
         <div className="hero">
