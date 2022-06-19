@@ -59,6 +59,7 @@ li.material-icons-outlined, a.material-icons-outlined {
 header {
   position: sticky;
   top: 0;
+  padding: 0 2rem;
   -webkit-box-shadow: 0 10px 6px -6px #77777780;
   -moz-box-shadow: 0 10px 6px -6px #77777780;
   box-shadow: 0 10px 6px -6px #77777780;
@@ -116,7 +117,7 @@ ul.mobile {
    overflow-y: scroll;
    scroll-behavior: smooth;
    padding: var(--paddingContent);
-   gap: 5rem;
+   gap: 2.5rem;
 }
 .content > .heading {
    position: relative;
