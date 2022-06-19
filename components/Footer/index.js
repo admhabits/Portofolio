@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
             <footer className="copyright">
-                <span>Footer</span>
+                <span>&copy; Certified Mid Programmer | Alam Santiko Wibowo</span>
             </footer>
         </>
     )
