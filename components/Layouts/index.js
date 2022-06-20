@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Header from 'AppComponent/Header';
-import Footer from 'AppComponent/Footer';
 import styles from 'styles/Home.module.css'
+import Footer from 'AppComponent/Footer'
+import Header from 'AppComponent/Header'
 
 export default function Layout(props) {
     return (
@@ -13,7 +13,11 @@ export default function Layout(props) {
                 <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round" rel="stylesheet" />
             </Head>
             <main className={styles.main}>
-                {props.children}
+                <div className="container">
+                    <Header />
+                    {props.children}
+                    <Footer />
+                </div>
             </main>
         </>
     )
