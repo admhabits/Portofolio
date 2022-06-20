@@ -27,7 +27,7 @@ export default function Home() {
             </div>
           </div>
           <div className="side-content">
-            <Image src={"/images/me.jpeg"} width={250} height={350} className="rounded" layout="fill" objectFit='contain' />
+            <Image src={"/images/me.jpeg"} width={250} height={250} className="rounded" layout="fixed" objectFit='contain' />
           </div>
         </div>
         <Footer />

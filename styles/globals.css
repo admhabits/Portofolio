@@ -27,7 +27,6 @@ a {
 
 .container {
   display: grid;
-  background-color: whitesmoke;
   grid-template-columns: 1fr;
   grid-template-rows: var(--appBarSize) 220px 1fr var(--appBarSize);
   color: var(--fontColor);
@@ -149,17 +148,18 @@ ul.mobile {
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: rgb(226, 223, 223);
-   min-height: 350px;
-   min-width: 250px;
+   background-image: url('../public/background.svg');
+   background-repeat: repeat;
+   background-size: contain;
+   background-position: center;
+   height: 300px;
+   width: 300px;
    position: relative;
-   /* box-shadow: 0 0 50px #ccc; */
-   -webkit-box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
-   -moz-box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
-   box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
-  border-radius: 20px;
-   
 
+}
+
+.side-content:hover {
+  animation: infinite 3s ease-in-out step-end;
 }
 
 .btn {
@@ -191,14 +191,13 @@ ul.mobile {
 }
 
 .rounded {
-  border-radius: 20px;
+  border-radius: 50%;
+     -webkit-box-shadow: 0 3px 5px rgba(119, 119, 119, 0.281);
+   -moz-box-shadow: 0 3px 5px rgba(119, 119, 119, 0.281);
+   box-shadow: 0 3px 5px rgba(119, 119, 119, 0.281);
+   cursor: pointer;
 }
-.side-content:hover {
-  /* -webkit-box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
-  -moz-box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281);
-  box-shadow: 0 20px 15px rgba(119, 119, 119, 0.281); */
-  animation: infinite 3s ease-in-out step-end;
-}
+
 
 .copyright {
    position: sticky;
