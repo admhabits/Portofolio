@@ -40,13 +40,14 @@ button.material-icons {
   color: white;
 }
 
-li.material-icons, a.material-icons {
+.navlink {
+  color: var(--fontColor);
+}
+
+.navlink:hover {
   color: var(--iconColor);
 }
 
-li.material-icons-outlined, a.material-icons-outlined {
-  color: var(--iconColor);
-}
 
 .material-icons, .navlink {
   cursor: pointer;
@@ -319,6 +320,7 @@ button.button-search {
 
 input[type=text]{
   border: 1px solid var(--iconColor);
+  padding: 0 1rem;
 }
 
 .search-page {
