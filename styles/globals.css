@@ -4,7 +4,7 @@
   --appBarSize: 60px;
   --paddingContent: 5rem;
   --mainColor: #2783ec;
-  --lightColor: #8abef9;
+  --lightColor: #a8cdf7;
   --iconColor: #2181ed;
   --borderColor: #0457b7;
 }
@@ -30,7 +30,7 @@ a {
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: var(--appBarSize) 220px 1fr var(--appBarSize);
+  grid-template-rows: var(--appBarSize) calc(100vh - 120px) calc(100vh - 120px) var(--appBarSize);
   color: var(--fontColor);
   font-size: var(--fontSize);
   font-weight: 400;
@@ -109,7 +109,6 @@ ul.mobile {
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 220px;
    color: var(--lightColor);
    background-color: var(--mainColor);
 }
@@ -229,6 +228,10 @@ footer.copyright > span {
 /* BREAKPOINT */
 
 @media only screen and (max-width: 768px){
+  .container {
+    grid-template-rows: var(--appBarSize) 60px 1fr var(--appBarSize);
+  }
+
   .main-content {
       display: flex;
       flex-direction: column;
@@ -257,10 +260,16 @@ footer.copyright > span {
   }
 
   .hero {
+    border-radius: 0 0 0 0;
+  }
+
+  .hero > h2.title {
     padding: 0 1.6rem;
     text-align: center;
     line-height: 30px;
+    font-size: 0.8rem;
   }
+  
 
   ul.dekstop {
       display: none;

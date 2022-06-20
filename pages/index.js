@@ -9,7 +9,7 @@ export default function Home() {
       <div className="container">
         <Header />
         <div className="hero">
-          <h2 className="title heading">LEARN, REFLEX, IMPLEMENT &amp; SHARE</h2>
+          <h2 className="title heading">FULL STACK REACT DEVELOPER</h2>
         </div>
         <div className="main-content">
           <div className="content">
