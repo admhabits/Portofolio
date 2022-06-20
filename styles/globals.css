@@ -1,10 +1,11 @@
 :root {
-  --fontColor: rgb(56, 69, 83);
   --fontSize: 1rem;
   --appBarSize: 60px;
   --paddingContent: 5rem;
+  --fontColor: #001c3c;
+  --primaryColor: #001c3c;
+  --lightColor: rgb(197, 210, 255);
   --mainColor: #2783ec;
-  --lightColor: #a8cdf7;
   --iconColor: #2181ed;
   --borderColor: #0457b7;
 }
@@ -173,9 +174,9 @@ ul.mobile {
 .btn {
   padding: 0.8rem;
   text-align: center;
-  color: white;
+  color: var(--lightColor);
   text-decoration: none;
-  border: 1px solid white;
+  border: 1px solid var(--lightColor);
   border-radius: 8px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 200px;
@@ -217,7 +218,7 @@ img.rounded {
    color: var(--lightColor);
    width: 100%;
    height: var(--appBarSize);
-   background-color: var(--mainColor);
+   background-color: var(--primaryColor);
    display: flex;
    justify-content: center;
    align-items: center;
