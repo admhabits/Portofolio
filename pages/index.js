@@ -23,7 +23,10 @@ export default function Home() {
               }
             </p>
             <div className="download-cv">
-              <a href="/CV/CV%20(14).pdf" className="btn btn-primary btn-download">Download CV</a>
+              <a href="/CV/CV%20(14).pdf" className="btn btn-primary btn-download">
+                <span className="icon material-icons">file_download</span>
+                <span> Unduh CV</span>
+              </a>
             </div>
           </div>
           <div className="side-content">

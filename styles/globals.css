@@ -176,6 +176,10 @@ ul.mobile {
 
 .btn-download {
   min-width: calc(100vw / 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .download-cv {
