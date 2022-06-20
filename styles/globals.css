@@ -1,10 +1,12 @@
 :root {
   --fontColor: #234;
   --fontSize: 1rem;
-  --mainColor: rgb(245, 201, 228);
   --appBarSize: 60px;
   --paddingContent: 5rem;
-  --iconColor: rgba(207, 35, 77, 0.79);
+  --mainColor: #2783ec;
+  --lightColor: #8abef9;
+  --iconColor: #2181ed;
+  --borderColor: #0457b7;
 }
 
 html,
@@ -107,6 +109,7 @@ ul.mobile {
    justify-content: center;
    align-items: center;
    height: 220px;
+   color: var(--lightColor);
    background-color: var(--mainColor);
 }
 
@@ -206,17 +209,20 @@ ul.mobile {
 .copyright {
    position: sticky;
    bottom: 0;
+   color: var(--lightColor);
    width: 100%;
    height: var(--appBarSize);
    background-color: var(--mainColor);
    display: flex;
    justify-content: center;
    align-items: center;
-   border-top: 2px solid #f3a4e4;
+   border-top: 2px solid var(--borderColor);
 }
 
 footer.copyright > span {
   text-align: center;
+  font-weight: 300;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* BREAKPOINT */
