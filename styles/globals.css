@@ -150,6 +150,7 @@ ul.mobile {
    text-transform: none;
    text-align: justify;
    text-indent: 1.5rem;
+   color: var(--lightColor);
 }
 
 .line {
