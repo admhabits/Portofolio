@@ -130,7 +130,7 @@ ul.mobile {
    padding: var(--paddingContent);
    gap: 2.5rem;
    background: #002a5a;
-   background-image: url("./images/background.svg");
+   background-image: url("/background.svg");
    background-repeat: no-repeat;
    background-size: 95%;
    background-position-y: 50%;
