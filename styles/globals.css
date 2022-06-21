@@ -245,7 +245,7 @@ ul.mobile {
 
 img.rounded {
   border-radius: 50%;
-  background-image: linear-gradient(45deg, var(--primaryColor), transparent);
+  background-image: linear-gradient(45deg, #001c3c36, transparent);
 }
 
 
