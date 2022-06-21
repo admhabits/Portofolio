@@ -239,7 +239,7 @@ footer.copyright > span {
 
 @media only screen and (max-width: 768px){
   .container {
-    grid-template-rows: var(--appBarSize) 200px 1fr var(--appBarSize);
+    grid-template-rows: var(--appBarSize) auto 200px var(--appBarSize);
   }
 
   .main-content {
