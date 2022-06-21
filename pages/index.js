@@ -24,7 +24,7 @@ export default function Home() {
           <div className="download-cv">
             <a href="/CV/CV%20(14).pdf" className="btn btn-primary btn-download">
               <span className="icon material-icons">file_download</span>
-              <span> Unduh CV</span>
+              <span> Download CV</span>
             </a>
           </div>
         </div>
