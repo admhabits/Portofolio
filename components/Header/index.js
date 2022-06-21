@@ -1,54 +1,79 @@
+import Link from "next/link"
+
 export default function Header() {
     return (
         <header className="navbar">
             <ul className="dekstop">
                 <div className="navlink-left">
                     <li>
-                        <a href="/store" className="navlink">
-                            <i className="material-icons md-30">store</i>
-                            <span>Toko</span>
-                        </a>
+                        <Link href="/store">
+                            <a className="navlink">
+                                <i className="material-icons md-30">store</i>
+                                <span>Toko</span>
+                            </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/offers" className="navlink">
-                            <i className="material-icons-outlined md-30">work_history</i>
-                            <span>Penawaran</span>
-                        </a>
+                        <Link href="/offers">
+                            <a className="navlink">
+                                <i className="material-icons-outlined md-30">work_history</i>
+                                <span>Penawaran</span>
+                            </a>
+                        </Link>
                     </li>
                 </div>
                 <div className="navlink-middle">
                     <li>
-                        <a href="/profile" className="navlink">
-                            <i className="material-icons-outlined md-30">apartment</i>
-                            <span>Profile</span>
-                        </a>
+                        <Link href="/">
+                            <a className="navlink">
+                                <i className="material-icons-outlined md-30">apartment</i>
+                                <span>Profile</span>
+                            </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/experience" className="navlink">
-                            <i className="material-icons-outlined md-30">history</i>
-                            <span>Experience</span>
-                        </a>
+                        <Link href="/experience">
+                            <a className="navlink">
+                                <i className="material-icons-outlined md-30">history</i>
+                                <span>Experience</span>
+                            </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/education" className="navlink">
-                            <i className="material-icons-outlined md-30">school</i>
-                            <span>Education</span>
-                        </a>
+                        <Link href="/education">
+                            <a className="navlink">
+                                <i className="material-icons-outlined md-30">school</i>
+                                <span>Education</span>
+                            </a>
+                        </Link>
                     </li>
                 </div>
                 <div className="navlink-right">
                     <li>
-                        <a href="/login" className="navlink signBtn">
-                            {/* <i className="material-icons md-30">account_circle</i> */}
-                            <span>Login</span>
-                        </a>
+                        <Link href="/login">
+                            <a className="navlink signBtn">
+                                <span>Login</span>
+                            </a>
+                        </Link>
                     </li>
                 </div>
             </ul>
             <ul className="mobile">
                 <div className="navlink-left">
-                    <li className="material-icons">menu</li>
-                    <li className="material-icons">store</li>
+                    <li>
+                        <Link href="/menu">
+                            <a className="navlink">
+                                <i className="material-icons md-30">menu</i>
+                            </a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/store">
+                            <a className="navlink">
+                                <i className="material-icons md-30">store</i>
+                            </a>
+                        </Link>
+                    </li>
                 </div>
                 <div className="navlink search-page">
                     <form>
@@ -59,9 +84,27 @@ export default function Header() {
                     </form>
                 </div>
                 <div className="navlink-right">
-                    <li className="material-icons small-mobile">search</li>
-                    <li className="material-icons-outlined">notifications</li>
-                    <li className="material-icons">account_circle</li>
+                    <li>
+                        <Link href="/search">
+                            <a className="navlink">
+                                <i className="material-icons md-30">search</i>
+                            </a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/notif">
+                            <a className="navlink">
+                                <i className="material-icons md-30">notifications</i>
+                            </a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/account">
+                            <a className="navlink">
+                                <i className="material-icons md-30">account_circle</i>
+                            </a>
+                        </Link>
+                    </li>
                 </div>
             </ul>
         </header>
