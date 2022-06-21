@@ -44,6 +44,8 @@ button.material-icons {
 
 .navlink {
   color: var(--fontColor);
+  display: flex;
+  justify-content: center;
 }
 
 .navlink:hover {
@@ -183,9 +185,9 @@ ul.mobile {
 .btn {
   padding: 0.8rem;
   text-align: center;
-  color: var(--lightColor);
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
   text-decoration: none;
-  border: 1px solid var(--lightColor);
   border-radius: 8px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 200px;
@@ -197,6 +199,18 @@ ul.mobile {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  color: var(--lightColor);
+  border: 1px solid var(--lightColor);
+}
+
+.signBtn {
+  border: 1px solid var(--primaryColor);
+  width: 120px;
+  border-radius: 5px;
+}
+
+.signBtn:hover {
+  border: 1px solid var(--mainColor);
 }
 
 .download-cv {

@@ -3,8 +3,18 @@ export default function Header() {
         <header className="navbar">
             <ul className="dekstop">
                 <div className="navlink-left">
-                    <li className="navlink"><a href="#toko" className="material-icons md-30">store</a>Toko</li>
-                    <li className="navlink"><a href="#hire" className="material-icons-outlined md-30">work_history</a>Jam Kerja</li>
+                    <li>
+                        <a href="#store" className="navlink">
+                            <i className="material-icons md-30">store</i>
+                            <span>Toko</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#hire" className="navlink">
+                            <i className="material-icons-outlined md-30">work_history</i>
+                            <span>Penawaran</span>
+                        </a>
+                    </li>
                 </div>
                 <div className="navlink-middle">
                     <li className="navlink">Pengalaman</li>
@@ -12,7 +22,12 @@ export default function Header() {
                     <li className="navlink">Pendidikan</li>
                 </div>
                 <div className="navlink-right">
-                    <li className="navlink"><a href="#masuk" className="material-icons md-30">account_circle</a>Masuk</li>
+                    <li>
+                        <a href="#masuk" className="navlink signBtn">
+                            {/* <i className="material-icons md-30">account_circle</i> */}
+                            <span>Masuk</span>
+                        </a>
+                    </li>
                 </div>
             </ul>
             <ul className="mobile">
