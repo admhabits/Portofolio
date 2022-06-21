@@ -31,7 +31,7 @@ a {
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: var(--appBarSize) calc(100vh - 120px) calc(100vh - 120px) var(--appBarSize);
+  grid-template-rows: var(--appBarSize) repeat(2, calc(100vh - 120px)) var(--appBarSize);
   align-content: start;
   color: #eaeaea;
   font-size: var(--fontSize);
@@ -65,7 +65,7 @@ button.material-icons {
 header {
   position: sticky;
   top: 0;
-  padding: 0 2rem;
+  padding: 0 4.5rem;
   z-index: 9999;
   -webkit-box-shadow: 0 10px 6px -6px #77777780;
   -moz-box-shadow: 0 10px 6px -6px #77777780;
@@ -118,16 +118,26 @@ ul.mobile {
 
 .hero {
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    color: var(--lightColor);
    background-color: var(--primaryColor);
 }
 
-.hero h2.title {
-  line-height: 30px;
+.hero .title {
   font-weight: 350;
-  font-size: 3rem;
+  font-size: 2.8rem;
+  margin-bottom:10px;
+  width: 80vw;
+  text-align: center;
+}
+
+.hero .desc {
+  font-weight: 250;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 80vw;
 }
 
 .main-content {
@@ -159,6 +169,7 @@ ul.mobile {
    text-transform: none;
    text-align: justify;
    text-indent: 1.5rem;
+   font-weight: 350;
    color: var(--lightColor);
 }
 
@@ -261,7 +272,7 @@ footer.copyright > span {
 
 @media only screen and (max-width: 768px){
   .container {
-    grid-template-rows: var(--appBarSize) auto 200px var(--appBarSize);
+    grid-template-rows: var(--appBarSize) repeat(2, auto) var(--appBarSize) !important;
   }
 
   .main-content {
@@ -299,12 +310,23 @@ footer.copyright > span {
     border-radius: 0 0 0 0;
   }
 
-  .hero > h2.title {
-    padding: 0 1.6rem;
+  .hero > .title {
+    padding: 0 1rem;
     text-align: center;
     line-height: 30px;
-    font-weight: 350;
+    font-weight: 400;
     font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .hero > .desc {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    line-height: 18px;
+    font-weight: 280;
+    font-size: 0.8rem;
+    margin-top: 0;
   }
   
 

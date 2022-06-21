@@ -5,7 +5,11 @@ import ProfilePic from 'public/images/me-trans.png'
 
 export default function Home() {
   return (
-    <Layout title="Alam Wibowo | Software Engineer">
+    <Layout title="Alam Wibowo | Software Engineer" rows={2}>
+      <div className="hero">
+        <h2 className="title">FULL STACK REACT DEVELOPER</h2>
+        <span className="desc">I always learn programming everyday. Implement what i've learned and share to everyone</span>
+      </div>
       <div className="main-content">
         <div className="content">
           <h2 className="heading">Alam Santiko Wibowo</h2>
@@ -27,9 +31,6 @@ export default function Home() {
         <div className="side-content">
           <Image src={ProfilePic} width={250} height={250} className="rounded" layout="fixed" objectFit='contain' />
         </div>
-      </div>
-      <div className="hero">
-        <h2 className="title heading">FULL STACK REACT DEVELOPER</h2>
       </div>
     </Layout>
   )

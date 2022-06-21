@@ -13,7 +13,7 @@ export default function Layout(props) {
                 <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round" rel="stylesheet" />
             </Head>
             <main className={styles.main}>
-                <div className="container">
+                <div className="container" style={{ gridTemplateRows: `var(--appBarSize) repeat(${props.rows}, calc(100vh - 120px)) var(--appBarSize)` }}>
                     <Header />
                     {props.children}
                     <Footer />
