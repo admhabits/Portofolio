@@ -6,9 +6,6 @@ import ProfilePic from 'public/images/me-trans.png'
 export default function Home() {
   return (
     <Layout title="Alam Wibowo | Software Engineer">
-      <div className="hero">
-        <h2 className="title heading">FULL STACK REACT DEVELOPER</h2>
-      </div>
       <div className="main-content">
         <div className="content">
           <h2 className="heading">Alam Santiko Wibowo</h2>
@@ -30,6 +27,9 @@ export default function Home() {
         <div className="side-content">
           <Image src={ProfilePic} width={250} height={250} className="rounded" layout="fixed" objectFit='contain' />
         </div>
+      </div>
+      <div className="hero">
+        <h2 className="title heading">FULL STACK REACT DEVELOPER</h2>
       </div>
     </Layout>
   )
