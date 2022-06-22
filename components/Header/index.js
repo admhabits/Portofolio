@@ -13,21 +13,13 @@ export default function Header() {
                             </a>
                         </Link>
                     </li>
+                </div>
+                <div className="navlink-right">
                     <li>
                         <Link href="/offers">
                             <a className="navlink">
                                 <i className="material-icons-outlined md-30">work_history</i>
                                 <span>Penawaran</span>
-                            </a>
-                        </Link>
-                    </li>
-                </div>
-                <div className="navlink-middle">
-                    <li>
-                        <Link href="/">
-                            <a className="navlink">
-                                <i className="material-icons-outlined md-30">apartment</i>
-                                <span>Profile</span>
                             </a>
                         </Link>
                     </li>
@@ -47,8 +39,6 @@ export default function Header() {
                             </a>
                         </Link>
                     </li>
-                </div>
-                <div className="navlink-right">
                     <li>
                         <Link href="/login">
                             <a className="navlink signBtn">
