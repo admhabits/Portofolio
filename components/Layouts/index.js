@@ -10,7 +10,6 @@ export default function Layout(props) {
                 <title>{props.title}</title>
                 <meta name="description" content="Hire Programmer | Alam Santiko Wibowo" />
                 <link rel="icon" href="/favicon.ico" />
-                <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round" rel="stylesheet" />
             </Head>
             <main className={styles.main}>
                 <div className="container" style={{ gridTemplateRows: `var(--appBarSize) repeat(${props.rows}, calc(100vh - 120px)) var(--appBarSize)` }}>
