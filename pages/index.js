@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout title="Alam Wibowo | Software Engineer" rows={2}>
       <div className="hero">
-        <h2 className="title">FULL STACK REACT DEVELOPER</h2>
+        <h2 className="title typewriter">FULL STACK REACT DEVELOPER</h2>
         <span className="desc">{`I always learn programming everyday. Implement what i've learned and share to everyone`}</span>
       </div>
       <div className="main-content">
