@@ -91,7 +91,7 @@ ul.mobile {
    padding: 8px 2px;
    display: flex;
    align-items: center;
-   gap: 0.25rem;
+   gap: 0.45rem;
 }
 
 .navlink-right {
@@ -109,7 +109,7 @@ ul.mobile {
 
 .navlink-left {
   display: flex;
-  gap: 0.8rem;
+  gap: 1rem;
 }
 .navlink-middle {
   display: flex;

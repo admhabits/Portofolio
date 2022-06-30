@@ -6,10 +6,10 @@ export default function Header() {
             <ul className="dekstop">
                 <div className="navlink-left">
                     <li>
-                        <Link href="/store">
+                        <Link href="/">
                             <a className="navlink">
-                                <i className="material-icons md-30">store</i>
-                                <span>Toko</span>
+                                <i className="material-icons md-30">menu</i>
+                                <span style={{ textTransform: 'uppercase' }}>React Developer</span>
                             </a>
                         </Link>
                     </li>
@@ -19,7 +19,7 @@ export default function Header() {
                         <Link href="/offers">
                             <a className="navlink">
                                 <i className="material-icons-outlined md-30">work_history</i>
-                                <span>Penawaran</span>
+                                <span>Works</span>
                             </a>
                         </Link>
                     </li>
@@ -27,7 +27,7 @@ export default function Header() {
                         <Link href="/experience">
                             <a className="navlink">
                                 <i className="material-icons-outlined md-30">history</i>
-                                <span>Experience</span>
+                                <span>Experiences</span>
                             </a>
                         </Link>
                     </li>
