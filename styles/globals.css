@@ -131,7 +131,7 @@ ul.mobile {
 }
 
 .hero .title {
-  font-weight: 350;
+  font-weight: 450;
   font-size: 2.8rem;
   margin-bottom:10px;
   /* width: 50vw; */
@@ -141,7 +141,7 @@ ul.mobile {
 }
 
 .hero .desc {
-  font-weight: 250;
+  font-weight: 350;
   font-size: 1.6rem;
   text-align: center;
   width: 80vw;
