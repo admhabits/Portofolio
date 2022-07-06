@@ -16,7 +16,7 @@ export default function Header() {
                 </div>
                 <div className="navlink-right">
                     <li>
-                        <Link href="/offers">
+                        <Link href="/works">
                             <a className="navlink">
                                 <i className="material-icons-outlined md-30">work_history</i>
                                 <span>Works</span>
